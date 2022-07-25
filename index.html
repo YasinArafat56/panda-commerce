@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -22,14 +22,14 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#Backpack">Backpack</a>
                   </li>
                  
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                  
                 </ul>
@@ -41,7 +41,7 @@
           <section class="mt-5">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active bg-light rounded">
+              <div class="carousel-item active bg-info rounded">
               <div class="row">
                 <div class="col-lg-7 d-flex align-items-center ps-5">
                  <div>
@@ -56,7 +56,7 @@
                 </div>
                 </div>
               </div>
-              <div class="carousel-item bg-light rounded">
+              <div class="carousel-item bg-info rounded">
                <div class="row">
                 <div class="col-lg-7 d-flex align-items-center ps-5">
                   <div>
@@ -75,7 +75,7 @@
               
               </div>
 
-              <div class="carousel-item bg-light ps-5">
+              <div class="carousel-item bg-info ps-5">
                 <div class="row">
                    
                     <div class="col-lg-7 d-flex align-items-center ">
@@ -137,7 +137,7 @@
         </section>
         <!-- categories and -->
         <!-- shoes secetion start -->
-        <section class="container my-5 ">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -180,7 +180,74 @@
           </div>
         </section>  
         <!-- shoes secetion end-->
+
+
+        <!-- bag pack section start -->
+        <section class="container" id="Backpack">
+          <h2>Backpack</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col col-lg-4 ">
+              <div class="card h-100 border border-0 rounded shadow-lg">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h2 class="card-title">Red Bag</h2>
+                  <h3>$120</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <input class="btn btn-primary rounded" type="button" value="Buy Now">
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-4">
+              <div class="card h-100 border border-0 rounded shadow-lg">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h2 class="card-title">Blue Bag</h2>
+                  <h3>$150</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <input class="btn btn-primary rounded" type="button" value="Buy Now">
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-4">
+              <div class="card h-100 border border-0 rounded shadow-lg">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h2 class="card-title">Black Bag</h2>
+                  <h3>$180</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <input class="btn btn-primary rounded" type="button" value="Buy Now">
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <!-- bag pack section end -->
+        
+
+        <!-- subscribe section start -->
+
+        <section style="height:300px;" class="container d-flex justify-content-center align-items-center bg-info mt-5 mb-5 rounded-3" id="subscribe">
+          <div>
+          <h2>LET'S STAY IN TOUCH</h2>
+          <p>Get updates on sales specials and more</p>
+          <form>
+            <div class="mb-3">
+              
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+            </div>
+           
+           
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        
+        </div>   
+        </section>
     </main>
+    <footer class="mt-5 text-center">
+      <p><small>@2022.Panda Commerce.All rights reversed.cox's bazar,Bangladesh.</small></p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
